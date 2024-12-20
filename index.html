@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Final</title>
+</head>
+<body>
+    <h1 id="titulo">Cinemark te da la bienvenida!</h1>
+
+    <button id="productosCarrito">Carrito</button>
+    
+    <div id="pantallaProductos">
+        <div id="filtros">
+            <div>
+                <input id="inputBuscar" placeholder="Búsqueda">
+                <button id="botonBuscar" value="valorDePrueba">Buscar</button>
+            </div>
+            <select name="generos" id="filtroGeneros">
+                <option value="">Todos</option>
+                <option value="Comedia">Comedia</option>
+                <option value="Drama">Drama</option>
+                <option value="Ficcion">Ficcion</option>
+                <option value="Terror">Terror</option>
+            </select>
+            <div>
+                <button id="comedia">Comedia</button>
+                <button id="drama">Drama</button>
+                <button id="ficcion">Ficcion</button>
+                <button id="terror">Terror</button>
+            </div>
+        </div>
+        <div id="contenedorProductos"></div>
+        
+    </div>
+
+    <div class="oculta" id="pantallaCarrito">
+        <div id="carrito"></div>
+        <h3 id="total">$0</h3>
+        <button id="botonComprar">Comprar ya</button>
+    </div>
+     
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    <script src="./script.js"></script>
+</body>
+</html>

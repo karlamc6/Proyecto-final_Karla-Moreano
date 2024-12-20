@@ -1,0 +1,96 @@
+.azul{
+    background-color: chartreuse;
+}
+
+.letraChica{
+    font-size: large;
+}
+
+#contenedorProductos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.producto {
+    background-color: #D4BD9C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 410px;
+    border: 2px solid #000000;
+    margin: 5px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+.producto img {
+    width: 150px;
+}
+
+#cajita{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+#carrito{
+    background-color: #D4BD9C;
+    border: 2px solid #000000;
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.tarjetaCarrito{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.oculta {
+    display: none;
+}
+
+.unidades {
+    display: flex;
+    gap: 5px;
+    margin: 5px; 
+}
+
+#filtros {
+    display: flex;
+    justify-content: space-between; 
+}
+
+#comedia, #terror, #drama, #ficcion {
+    transition: 2s;
+    border-radius: 10px;
+    transform: translateY(-3px);
+    box-shadow: 4px 6px 5px #C0A787;
+    border: black;
+}
+
+#filtroGeneros {
+    transition: 2s;
+    border-radius: 10px;
+    transform: translateY(-3px);
+    box-shadow: 4px 6px 5px #C0A787;
+    border: black;
+}
+
+#botonBuscar, #productosCarrito, #botonComprar {
+    transition: 2s;
+    border-radius: 4px;
+    transform: translateY(-3px);
+    box-shadow: 4px 6px 5px #C0A787;
+    border: black;
+}
